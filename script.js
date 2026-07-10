@@ -31,3 +31,11 @@ ${message}`;
     });
 
 }
+const menu = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav-links");
+
+if (menu && nav) {
+    menu.addEventListener("click", function () {
+        nav.classList.toggle("active");
+    });
+}

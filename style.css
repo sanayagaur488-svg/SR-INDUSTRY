@@ -1147,18 +1147,9 @@ body{
         padding:15px;
     }
 
-    .quote-btn{
-        display:none;
-    }
+    
 }
 /* ===== FINAL MOBILE NAVBAR FIX ===== */
-.menu-toggle{
-    display:none;
-    font-size:30px;
-    color:white;
-    cursor:pointer;
-}
-    
 
 @media (max-width:768px){
 
@@ -1167,15 +1158,15 @@ body{
         font-size:34px;
         color:#fff;
         cursor:pointer;
-        z-index:9999;
+        z-index:9998;
     }
 
     .quote-btn{
-        display:none !important;
+        display: inline-block !important;
     }
 
     .nav-links{
-        display: inline-block !important;
+        display:none !important;
         width:100%;
         flex-direction:column;
         background:#0f172a;
@@ -1209,6 +1200,8 @@ body{
         list-style:none;
         text-align:center;
         padding:15px;
-    }
-}
+    }}
 
+#location{
+    scroll-margin-top: 20px;
+}
